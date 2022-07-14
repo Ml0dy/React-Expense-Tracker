@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+}
+
+body{
+    margin-left: 25%;
+    top: 15%;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color: rgb(230, 230, 230);
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+li{
+    border: 1px solid black;
+    margin-bottom: 3px;
+    padding: 8px;
+    list-style-type: none;
+    height: 35px;
+    width: auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.elementText{
+    height: 35px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+    padding: 5px;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.elementMoney{
+    font-size: 20px;
+    font-weight: bold;
+    height: 35px;
+}
+
+.moneyBalance{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.positive{
+    color: #0fbf02;
+}
+
+.negative{
+    color: #bf0202;
+}
+
+.newTransactionContainer{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin: 5px;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.incomesAndExpenses{
+    display: flex;
+    background-color: #ffffff;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+.income{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.labelIncomes, .labelExpenses{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.expenses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
